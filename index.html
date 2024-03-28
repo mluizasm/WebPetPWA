@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEBPET</title>
+  <link rel="stylesheet" href="index.css"> <!-- Incluindo o arquivo CSS -->
+  <!-- Adicionando Bootstrap CSS para os ícones -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Adicionando Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <link rel="manifest" href="manifest.json">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="msapplication-TileImage" content="assets/icon/144.png">
+  <meta name="msapplication-TileColor" content="#4b0082">
+  <meta name="theme-color" content="#f5f5f5">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="grey">
+  <meta name="apple-mobile-web-app-title" content="Web Pet">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+</head>
+<body>
+  <script src="service-worker.js"></script>
+  <div class="site-content">
+
+  <div class="partesuperior">
+    <div class="iconebotaolateral">
+      <a href="#" id="icone-menu"><i class="fas fa-bars"></i></a>
+    </div>
+    <nav id="menu-lateral">
+      <ul>
+        <li><a href="#">Meus Dados</a></li>
+        <li><a href="#">Configurações</a></li>
+        <li><a href="login.html">Sair</a></li>
+      </ul>
+    </nav>
+    <script src="botaolateral.js"></script>
+
+    <div class="fotopet"></div> 
+    <div class="nomepet"><p>Luna</p></div>     
+  </div>
+ 
+
+<div class="registrotitulo"><p>Seus Registros</p></div>
+<div class="registrocard">
+    <div class="registrofotoalinhamento"><div class="registrofoto1"></div></div>
+    <div class="registrodata"><p>16/07/2016</p></div>
+    <div class="registrotexto"><p>Primeiro dia de meu amor em casa, estava pesando apenas 700 gramas!</p></div>
+  </div>
+
+<div class="registrocard">
+    <div class="registrofotoalinhamento"><div class="registrofoto2"></div></div>
+    <div class="registrodata"><p>16/07/2017</p></div>
+    <div class="registrotexto"><p>Aniversário de 1 ano!</p></div>
+  </div>
+
+  <div class="registrocard">
+    <div class="registrofotoalinhamento"><div class="registrofoto3"></div></div>
+    <div class="registrodata"><p>30/12/2018</p></div>
+    <div class="registrotexto"><p>Curtindo as férias!</p></div>
+  </div>
+
+
+  <nav class="bottom-navbar">
+    <a href="index.html" class="nav-item"><i class="fas fa-home"></i> Início</a>
+    <a href="#" class="nav-item"><i class="fas fa-plus"></i> Novo Registro</a>
+    <a href="saude.html" class="nav-item"><i class="fas fa-heart"></i> Saúde</a>
+  </nav>
+  </div>
+</body>
+
+</html>

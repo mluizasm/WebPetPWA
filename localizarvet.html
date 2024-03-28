@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WEBPET</title>
+  <link rel="stylesheet" href="localizarvet.css"> <!-- Incluindo o arquivo CSS -->
+  <!-- Adicionando Bootstrap CSS para os ícones -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <!-- Adicionando Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+  <div class="site-content">
+
+    <div class="partesuperior">
+      <div class="iconebotaolateral">
+        <a href="#" id="icone-menu"><i class="fas fa-bars"></i></a>
+      </div>
+      <nav id="menu-lateral">
+        <ul>
+          <li><a href="#">Meus Dados</a></li>
+          <li><a href="#">Configurações</a></li>
+          <li><a href="login.html">Sair</a></li>
+        </ul>
+      </nav>
+      <script src="botaolateral.js"></script>
+  
+      <div class="fotopet"></div> 
+      <div class="nomepet"><p>Luna</p></div>     
+    </div>
+
+    <div class="titulolocalizador"><h1>Veja abaixo clinícas e hospitais veterinários próximos a você!</h1></div>
+    <div class="mapa">
+        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=10_BFphd8SWMQ8uuqPKG7ty85EQMutDA&ehbc=2E312F&noprof=1" width="640" height="480" aria-label="Mapa com a localização de hospitais e clínicas veterinárias "></iframe>
+    </div>
+    <script src="script.js"></script> 
+
+  <nav class="bottom-navbar">
+    <a href="index.html" class="nav-item"><i class="fas fa-home"></i> Início</a>
+    <a href="#" class="nav-item"><i class="fas fa-plus"></i> Novo Registro</a>
+    <a href="saude.html" class="nav-item"><i class="fas fa-heart"></i> Saúde</a>
+  </nav>
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,210 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+.site-content {
+  font-family: robot;
+  text-align: center;
+  width: 100%;
+  height: auto; /* Alterado de 100% para auto */
+  padding-bottom: 60px; /* Adicionado padding-bottom igual à altura da barra de navegação */
+}
+
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.iconebotaolateral {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 999;
+}
+
+#icone-menu{
+  color:#E7DDFF;
+}
+
+#menu-lateral {
+  position: fixed;
+  top: 0;
+  left: -250px;
+  width: 150px;
+  height: 100%;
+  background: whitesmoke;
+  transition: left 0.3s ease;
+}
+
+#menu-lateral ul {
+  list-style: none;
+  padding: 0;
+  margin: 50px 0 0 0;
+}
+
+#menu-lateral ul li {
+  padding: 15px;
+}
+
+#menu-lateral ul li a {
+  color: #4b0082;
+  text-decoration: none;
+}
+
+#menu-lateral ul li:hover {
+  background: #E6E6FA;
+}
+
+#menu-lateral.open {
+  left: 0;
+}
+
+.fotopet {
+  width: 30%;
+  height: auto; /* Para manter a proporção da imagem */
+  margin: auto; /* Centraliza a div horizontalmente */
+  border-radius: 50%; /* Torna a div circular */
+  overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse os limites da div */
+  background-image: url("assets/imagenspet/peticone.png");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fotopet::after {
+  content: ""; /* Necessário para a pseudo-elemento ser exibida */
+  width: 100%; /* Para que o pseudo-elemento ocupe toda a área da div */
+  padding-top: 100%; /* Proporção 1:1 (altura igual à largura) */
+}
+
+
+
+.partesuperior{
+ background-color: #4b0082;
+ margin-bottom: 15px;
+ padding-top: 15px;
+}
+
+.nomepet{
+color:whitesmoke;
+margin-top: 10px;
+}
+
+.nomepet p{
+  font-size: 20px;
+}
+
+.bottom-navbar {
+  font-size: 15px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #4b0082;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 60px;
+  z-index: 1000; /* Garante que a barra de navegação esteja acima dos outros elementos */
+}
+
+.nav-item {
+  color: whitesmoke;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+/* Alterar a cor de fundo do botão ao passar o mouse */
+.nav-item:hover {
+  background-color: whitesmoke;
+  color: #4b0082;
+  text-decoration: none;
+}
+
+.registrocard {
+  background-color: rgba(245, 245, 245, 0.8); /* Cor whitesmoke com 80% de opacidade */
+  color: #4b0082;
+  margin: auto; /* Centraliza horizontalmente */
+  width: 80%;
+  border: whitesmoke;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  border-radius: 20px; /* Borda com curvatura */
+  padding: 5px 5px; /* Margem interna de 15 pixels no topo e na parte inferior, 20 pixels nas laterais */
+  text-align: justify;
+  box-shadow:  0 4px 8px rgba(75, 0, 130, 0.3);
+} 
+
+
+.registrofoto1 {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px; /* Borda com curvatura */
+  overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse os limites da div */
+  background-image: url("assets/imagenspet/petfilhote.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex; /* Para usar flexbox */
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+}
+
+.registrofotoalinhamento{
+  background-position: center;
+  display: flex; /* Para usar flexbox */
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+}
+
+.registrotitulo {
+  color:#4b0082;
+  margin-top: 0px;
+  margin-bottom:0px;
+  text-align: center;
+  font-size: 20px;  
+}
+
+.registrodata {
+      text-align: center;
+      font-size: 15px;  
+}
+
+.registrotexto {
+  margin-top: 0px;
+  margin-bottom:0px;
+  font-size: 15px;
+}
+
+
+.registrofoto2 {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px; /* Borda com curvatura */
+  overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse os limites da div */
+  background-image: url("assets/imagenspet/petfesta.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex; /* Para usar flexbox */
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+}
+
+.registrofoto3 {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px; /* Borda com curvatura */
+  overflow: hidden; /* Esconde qualquer conteúdo que ultrapasse os limites da div */
+  background-image: url("assets/imagenspet/petpraia.jpeg");
+  background-size: cover;
+  background-position: center;
+  display: flex; /* Para usar flexbox */
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+}

@@ -1,0 +1,203 @@
+.site-content {
+  font-family: robot;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+#imagemdefundo {
+  background-image: url("assets/imagenspet/petbackground.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+  margin: 0;
+  padding: 40px 0;
+  min-height: 100vh;
+}
+
+.textobemvindo {
+  color: whitesmoke;
+  margin: auto;
+  width: 35%;
+  border: white;
+  margin-top: 40px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  font-family: robot;
+  padding: 15px 20px;
+}
+
+.textobemvindo h1 { 
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.textobemvindo h2 { 
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.bloconovocadastro {
+  background-color: rgba(245, 245, 245, 0.8);
+  font-weight: bold;
+  font-size: 15px;
+  color: #4b0082;
+  margin: auto;
+  width: 35%;
+  border: white;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  font-family: robot;
+  padding: 15px 20px;
+} 
+
+.bloconovocadastro h3 { 
+  font-size: 15px;
+}
+
+.bloconovocadastro p { 
+  font-size: 15px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-weight: lighter;
+}
+
+input[type="email"],
+input[type="senha"],
+input[type="cpf"],
+input[type="nomeanimal"],
+input[type="nome"],
+input[type="tipoanimal"] {
+  background-color: rgba(245, 245, 245, 0.95);
+  font-size: 15px;
+  border: none;
+  border-radius: 20px;
+  font-family: robot;
+  padding: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+a[href="index.html"],
+a[href="efetuarcadastro"] {
+  background-color: rgba(75, 0, 130, 0.85);
+  color: whitesmoke;
+  font-size: 15px;
+  border: none;
+}
+
+a[href="cadastro"],
+input[type="acessar"]:hover,
+a[href="efetuarcadastro"]:hover,
+a[href="index.html"]:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .site-content {
+    font-family: robot;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+
+  #imagemdefundo {
+    background-image: url("https://i.pinimg.com/originals/e5/d1/c7/e5d1c72c43786ad429213b3a0e07c3ff.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    align-items: center;
+    margin: 0;
+    padding: 50px 0;
+    min-height: 100vh;
+  }
+
+  .textobemvindo {
+    color: whitesmoke;
+    margin: auto;
+    width: 80%;
+    border: white;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-family: robot;
+    padding: 15px 20px;
+  }
+
+  .textobemvindo h1 { 
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .textobemvindo h2 { 
+    font-size: 15px;
+    font-weight: lighter;
+  }
+
+  .bloconovocadastro {
+    background-color: rgba(245, 245, 245, 0.8);
+    font-weight: bold;
+    font-size: 15px;
+    color: #4b0082;
+    margin: auto;
+    width: 80%;
+    border: white;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    font-family: robot;
+    padding: 15px 20px;
+  } 
+
+  .bloconovocadastro h3 { 
+    font-size: 15px;
+  }
+
+  .bloconovocadastro p { 
+    font-size: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  input[type="email"],
+  input[type="senha"],
+  input[type="cpf"],
+  input[type="nomeanimal"],
+  input[type="nome"],
+  input[type="tipoanimal"] {
+    background-color: rgba(245, 245, 245, 0.95);
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    font-family: robot;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+
+  input[type="acessar"],
+  a[href="index.html"],
+  a[href="cadastro"],
+  a[href="login.html"] {
+    background-color: rgba(75, 0, 130, 0.85);
+    color: whitesmoke;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    font-family: robot;
+    padding: 10px;
+    margin-top: 20px; /* Ajuste do espaço entre os elementos */
+    margin-bottom: 20px; /* Ajuste do espaço entre os elementos */
+  }
+
+  input[type="acessar"]:hover,
+  a[href="index.html"]:hover,
+  a[href="cadastro"],
+  a[href="login.html"]:hover {
+    color: #000;
+    text-decoration: none;
+  }
+}
